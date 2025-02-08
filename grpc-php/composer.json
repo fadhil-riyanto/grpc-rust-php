@@ -1,0 +1,20 @@
+{
+    "name": "fadhil_riyanto/grpc-php",
+    "autoload": {
+        "psr-4": {
+            "FadhilRiyanto\\GrpcPhp\\": "src/",
+            "Helloworld\\": "compiled/Helloworld/",
+            "GPBMetadata\\": ["compiled/GPBMetadata/"]
+        }
+    },
+    "authors": [
+        {
+            "name": "fadhil riyanto",
+            "email": "me@fadev.org"
+        }
+    ],
+    "require": {
+        "grpc/grpc": "^1.57",
+        "google/protobuf": "^4.29"
+    }
+}
